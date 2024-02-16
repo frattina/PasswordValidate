@@ -27,7 +27,7 @@ IsValid("AbTp9!fok") // true
 
 ## Desafio
 
-Construa uma aplicação em .NET que exponha uma api web que valide se uma senha é válida.
+Construa uma aplicação em .NET que exponha uma api web que valide uma senha.
 
 Input: Uma senha (string).  
 Output: Um boolean indicando se a senha é válida e caso seja inválida, listar os erros.
@@ -39,12 +39,6 @@ Output: Um boolean indicando se a senha é válida e caso seja inválida, listar
 - Clean Code
 - SOLID
 - Documentação da solução no *README* 
-
-## Pontos que não iremos avaliar
-
-- docker file
-- scripts ci/cd
-- coleções do postman ou ferramentas para execução
 
 ### Sobre a documentação
 
@@ -58,8 +52,6 @@ Algumas dicas do que esperamos ver são:
 
 ## Como esperamos receber sua solução
 
-Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
+Nos envie o link de um repo público com a sua solução.
 
 Se tiver algum imprevisto, dúvida ou problema, por favor, entre em contato com a gente, estamos aqui para ajudar.
-
-Nos envie o link de um repo público com a sua solução.
