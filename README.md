@@ -25,18 +25,15 @@ IsValid("AbTp9!fok") // true
 
 > **_Nota:_**  Espaços em branco não devem ser considerados como caracteres válidos.
 
-## Problema
+## Desafio
 
-Construa uma aplicação que exponha uma api web que valide se uma senha é válida.
+Construa uma aplicação em .NET que exponha uma api web que valide se uma senha é válida.
 
 Input: Uma senha (string).  
-Output: Um boolean indicando se a senha é válida.
-
-Embora nossas aplicações sejam escritas em Kotlin e C# (.net core), você não precisa escrever sua solução usando elas. Use a linguagem de programação que considera ter mais conhecimento.
+Output: Um boolean indicando se a senha é válida e caso seja inválida, listar os erros.
 
 ## Pontos que daremos maior atenção
 
-- Testes de unidade / integração
 - Abstração, acoplamento, extensibilidade e coesão
 - Design de API
 - Clean Code
@@ -63,6 +60,6 @@ Algumas dicas do que esperamos ver são:
 
 Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
 
-Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a gente, estamos aqui para ajudar.
+Se tiver algum imprevisto, dúvida ou problema, por favor, entre em contato com a gente, estamos aqui para ajudar.
 
 Nos envie o link de um repo público com a sua solução.
