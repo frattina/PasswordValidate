@@ -1,4 +1,4 @@
-## Desafio
+# Desafio
 
 Construa uma aplicação em .NET que exponha uma api web que valide uma senha.
 
@@ -6,7 +6,7 @@ Input: Uma senha (string).
 Output: Um boolean indicando se a senha é válida e caso seja inválida, listar os erros.
 
 
-# Especificação
+## Especificação
 
 Considere uma senha sendo válida quando a mesma possuir as seguintes definições:
 
@@ -42,7 +42,7 @@ IsValid("AbTp9!fok") // true
 - Documentação da solução no *README* 
 
 
-### Sobre a documentação
+## Sobre a documentação
 
 Nesta etapa do processo seletivo queremos entender as decisões por trás do código, portanto é fundamental que o *README* tenha algumas informações referentes a sua solução.
 
