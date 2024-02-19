@@ -1,4 +1,12 @@
-# Descrição
+## Desafio
+
+Construa uma aplicação em .NET que exponha uma api web que valide uma senha.
+
+Input: Uma senha (string).  
+Output: Um boolean indicando se a senha é válida e caso seja inválida, listar os erros.
+
+
+# Especificação
 
 Considere uma senha sendo válida quando a mesma possuir as seguintes definições:
 
@@ -7,8 +15,9 @@ Considere uma senha sendo válida quando a mesma possuir as seguintes definiçõ
 - Ao menos 1 letra minúscula
 - Ao menos 1 letra maiúscula
 - Ao menos 1 caractere especial
-  - Considere como especial os seguintes caracteres: !@#$%^&*()-+
+- Considere como especial os seguintes caracteres: !@#$%^&*()-+
 - Não possuir caracteres repetidos dentro do conjunto
+- Espaços em branco não devem ser considerados como caracteres válidos
 
 Exemplo:  
 
@@ -23,14 +32,6 @@ IsValid("AbTp9 fok") // false
 IsValid("AbTp9!fok") // true
 ```
 
-> **_Nota:_**  Espaços em branco não devem ser considerados como caracteres válidos.
-
-## Desafio
-
-Construa uma aplicação em .NET que exponha uma api web que valide uma senha.
-
-Input: Uma senha (string).  
-Output: Um boolean indicando se a senha é válida e caso seja inválida, listar os erros.
 
 ## Pontos que daremos maior atenção
 
@@ -39,6 +40,7 @@ Output: Um boolean indicando se a senha é válida e caso seja inválida, listar
 - Clean Code
 - SOLID
 - Documentação da solução no *README* 
+
 
 ### Sobre a documentação
 
@@ -49,6 +51,7 @@ Algumas dicas do que esperamos ver são:
 - Instruções básicas de como executar o projeto;
 - Detalhes sobre a sua solução, gostariamos de saber qual foi seu racional nas decisões;
 - Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões.
+
 
 ## Como esperamos receber sua solução
 
